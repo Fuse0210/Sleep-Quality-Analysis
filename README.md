@@ -48,7 +48,7 @@ The **Coefficient Plot** below visualizes the estimated effects of each variable
 ![Coefficient Plot](images/visual.png)
 
 
-## Model Performance
+### Model Performance
 The regression model achieved an **R-squared of 0.85**, indicating that approximately **85% of the variance** in sleep quality can be explained by the included predictors. 
 
 The results confirm that while **stress level, heart rate, and physical activity are statistically significant drivers** of sleep quality, **daily steps do not provide additional explanatory power** when the other variables are already accounted for.
