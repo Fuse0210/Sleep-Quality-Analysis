@@ -14,6 +14,12 @@ The goal of this analysis is to determine the statistical significance of daily 
 The dataset was obtained from the Kaggle **"Sleep Health and Lifestyle Dataset."**
 * **Source:** [Kaggle Dataset Link](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset)
 
+## Tech Stack
+* **Python**
+* **Pandas & NumPy:** Data manipulation and descriptive grouping.
+* **Scikit-Learn:** Machine learning implementation (Linear Regression).
+* **Statsmodels:** Detailed statistical summaries and $p$-value analysis.
+
 ## Variables 
 * **Sleep Quality:** A subjective rating of sleep quality, ranging from 1 to 10.
 * **Physical Activity Level (minutes/day):** The number of minutes an individual engages in physical activity daily.
@@ -41,11 +47,6 @@ The **Coefficient Plot** below visualizes the estimated effects of each variable
 
 ![Coefficient Plot](images/visual.png)
 
-## Tech Stack
-* **Python**
-* **Pandas & NumPy:** Data manipulation and descriptive grouping.
-* **Scikit-Learn:** Machine learning implementation (Linear Regression).
-* **Statsmodels:** Detailed statistical summaries and $p$-value analysis.
 
 ## Model Performance
 The regression model achieved an **R-squared of 0.85**, indicating that approximately **85% of the variance** in sleep quality can be explained by the included predictors. 
