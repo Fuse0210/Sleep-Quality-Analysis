@@ -34,6 +34,8 @@ Using **Ordinary Least Squares (OLS)** regression, the following relationships w
 * **Physical Activity:** Demonstrates a significant positive relationship with sleep quality ($p = 0.003$).
 * **Daily Steps:** Interestingly, daily steps were **not** a statistically significant predictor in this model ($p = 0.143$), suggesting that the *intensity* of activity (Physical Activity Level) may be more influential than raw step volume.
 
+![Coefficient Plot](images/results.png)
+
 ### Visualizing Impacts
 The **Coefficient Plot** below visualizes the estimated effects of each variable. This allows for a quick comparison of which factors most heavily influence the model's predictions.
 
